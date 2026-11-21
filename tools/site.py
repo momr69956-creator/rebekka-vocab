@@ -19,7 +19,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LESSONS = ROOT / "lessons.json"
 STUDENT = "Rebekka"
-SUBTITLE = "Palestinian Arabic, with audio for every word"
+SUBTITLE = "Levantine Arabic, with audio for every word"
 
 BACK_CSS = (".home-link{display:inline-flex;align-items:center;gap:6px;margin-bottom:10px;font-size:.95rem;"
             "font-weight:700;color:var(--ink-2);text-decoration:none}"
