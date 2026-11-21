@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rebekka: Arabic vocabulary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;700;800&display=swap">
+<style>
+:root{
+  --paper:#F3F5F8; --surface:#FFFFFF; --ink:#172033; --ink-2:#4A5468; --muted:#7A8497;
+  --line:#DDE2EA; --line-soft:#ECEFF4; --accent:#1C68A8; --accent-soft:#E8F0F8;
+  --sans:"Atkinson Hyperlegible Next", "Atkinson Hyperlegible", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.head-in{max-width:760px;margin:0 auto;padding:40px 24px 8px}
+h1{margin:0;font-size:clamp(2.2rem,6vw,3rem);font-weight:800;letter-spacing:-.02em;line-height:1.05}
+.sub{margin-top:8px;color:var(--ink-2);font-size:1.05rem}
+.meta{margin-top:4px;color:var(--muted);font-size:.95rem}
+main{max-width:760px;margin:0 auto;padding:22px 24px 80px}
+.month{margin-bottom:30px}
+.month h2{margin:0 0 12px;font-size:1.05rem;font-weight:800;color:var(--ink-2)}
+.day{display:grid;grid-template-columns:56px 1fr;gap:16px;margin-bottom:14px}
+.date{display:flex;flex-direction:column;align-items:center;padding-top:16px}
+.dnum{font-size:1.7rem;font-weight:800;line-height:1;color:var(--accent)}
+.wday{margin-top:4px;font-size:.85rem;color:var(--muted)}
+.cards{display:flex;flex-direction:column;gap:10px;min-width:0}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;color:inherit;text-decoration:none;box-shadow:0 1px 2px rgba(23,32,51,.04)}
+.card:hover{border-color:var(--accent)}
+.card:focus-visible{outline:3px solid #2B6CDB;outline-offset:2px}
+.card-top{display:flex;align-items:center;gap:10px}
+.card h3{margin:0;font-size:1.2rem;font-weight:800;line-height:1.3}
+.new{font-size:.8rem;font-weight:700;color:var(--accent);background:var(--accent-soft);padding:2px 9px;border-radius:999px}
+.count{margin-left:auto;font-size:.9rem;color:var(--muted);white-space:nowrap}
+.go{width:16px;height:16px;color:var(--muted);flex:none}
+.card:hover .go{color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;align-items:center}
+.chip{font-size:1rem;font-weight:700;padding:3px 10px;border-radius:8px;background:var(--line-soft);color:var(--ink)}
+.more{font-size:.9rem;color:var(--muted)}
+.empty{color:var(--muted)}
+@media (max-width:560px){
+  .head-in{padding:28px 16px 4px}
+  main{padding:18px 16px 60px}
+  .day{grid-template-columns:40px 1fr;gap:10px}
+  .dnum{font-size:1.4rem}
+  .card{padding:14px}
+}
+</style>
+</head>
+<body>
+<header><div class="head-in">
+<h1>Rebekka</h1>
+<div class="sub">Palestinian Arabic, with audio for every word</div>
+<div class="meta">58 words in 1 lesson</div>
+</div></header>
+<main>
+<section class="month"><h2>November 2026</h2>
+<div class="day" id="d2026-11-21"><div class="date"><span class="dnum">21</span><span class="wday">Sat</span></div><div class="cards"><a class="card" href="lessons/2026-11-21-p124-125-travel/"><div class="card-top"><h3>Travel (whiteboard pp. 124–125)</h3><span class="new">Latest</span><span class="count">58 words</span><svg class="go" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="chips"><span class="chip">yet3allam</span><span class="chip">bat3allam</span><span class="chip">basawwi</span><span class="chip">jawaaz essafar</span><span class="chip">maTaar</span><span class="chip">ahla w sahla feeki bi...</span><span class="more">+52 more</span></div></a></div></div>
+</section>
+</main>
+</body>
+</html>
